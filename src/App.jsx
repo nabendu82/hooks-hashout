@@ -1,6 +1,8 @@
 import './App.css'
 import React from 'react'
-import ParentComp from './components/ParentComp'
+import DocTitleOne from './components/DocTitleOne'
+import DocTitleTwo from './components/DocTitleTwo'
+
 // import GrandParent from './components/GrandParent';
 
 // export const UserContext = React.createContext();
@@ -13,7 +15,10 @@ function App() {
     //     <GrandParent />
     //   </ChannelContext.Provider>
     // </UserContext.Provider>
-    <ParentComp />
+    <>
+      <DocTitleOne />
+      <DocTitleTwo />
+    </>
   )
 }
 
